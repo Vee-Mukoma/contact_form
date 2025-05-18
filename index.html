@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form action="display.html" target="_blank" method="POST">  
+                <fieldset>
+                    <legend>Details:</legend>
+                        <label for="uname">Name:</label><br>
+                        <input type="text" id="uname" name="uname" required><br>
+                        <label for="femail">Email:</label><br>
+                        <input type="email" id="femail" name="femail" required><br>
+                    
+                        <label for="issue">What's the issue?:</label><br>
+                        <select id="issue" nam="issue">
+                            <option value="query">Query</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="other">Other</option>
+                </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comment/Other: </legend><br>
+                    <label for="comment">Enter a comment or Other issue:</label><br>
+                    <textarea name="comment" rows="10" cols="30"></textarea>
+                </fieldset><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </body>
+</html>
