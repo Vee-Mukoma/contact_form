@@ -16,3 +16,9 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
+
+h2{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #ff5e94;
+}
