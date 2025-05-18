@@ -1,0 +1,18 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #fc29f1;
+    color: #333;
+    padding: 2rem;
+}
+
+.submission-details{
+    max-width: 600px;
+    margin: auto;
+    background: #ffe0f0;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

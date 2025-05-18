@@ -8,7 +8,7 @@
     <body>
         <section class="form-section">
             <h2>Contact Us</h2>
-            <form action="display.html" target="_blank" method="POST">  
+            <form action="display.html" target="_blank" method="get">  
                 <fieldset>
                     <legend>Details:</legend>
                         <label for="uname">Name:</label><br>
@@ -17,7 +17,7 @@
                         <input type="email" id="femail" name="femail" required><br>
                     
                         <label for="issue">What's the issue?:</label><br>
-                        <select id="issue" nam="issue">
+                        <select id="issue" name="issue">
                             <option value="query">Query</option>
                             <option value="feedback">Feedback</option>
                             <option value="complaint">Complaint</option>
@@ -28,7 +28,7 @@
                 <fieldset>
                     <legend>Comment/Other: </legend><br>
                     <label for="comment">Enter a comment or Other issue:</label><br>
-                    <textarea name="comment" rows="10" cols="30"></textarea>
+                    <textarea id="comment" name="comment" rows="10" cols="30"></textarea>
                 </fieldset><br>
 
                 <button type="submit">Submit</button>

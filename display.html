@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission details</title>
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <section class="submission-details">
+        <fieldset>
+            <h2>Form submitted!!!</h2>
+            <p><strong>Name:</strong><span id="uname"></span></p>
+            <p><strong>Email:</strong><span id="femail"></span></p>
+            <p><strong>Issue:</strong><span id="issue"></span></p>
+            <p><strong>Comment:</strong><span id="comment"></span></p>
+        </fieldset>
+    </section>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("uname").textContent = params.get("uname");
+        document.getElementById("femail").textContent = params.get("femail");
+        document.getElementById("issue").textContent = params.get("issue");
+        document.getElementById("comment").textContent = params.get("comment");
+    </script>
+            
+
+</body>
+</body>
+</html>
